@@ -15,7 +15,8 @@
 
 <b>Backend</b>
 <ul>
-  <li>NodeJS or ASP.NET Core.</li>
+  <li>ASP.NET Core.</li>
+  <li>Specific Framework in mind to serve as my CMS - https://github.com/piranhacms/piranha.core</li>
 </ul>
 
 <b>Hosting Provider</b>
