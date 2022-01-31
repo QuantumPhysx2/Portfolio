@@ -2,9 +2,10 @@
 <h1>To do:</h1>
 <ul>
   <li>Home page.</li>
-  <li>Blog page (this will require extended work).</li>
+  <li>Blog page (CMS required).</li>
   <li>About page.</li>
   <li>Contact page.</li>
+  <li>(Experimental)Track me page (page that tracks my stats on other platforms - THM, HTB, etc).</li>
 </ul>
 
 <h1>Frameworks and Services to be used:</h1>
@@ -16,7 +17,8 @@
 <b>Backend</b>
 <ul>
   <li>ASP.NET Core.</li>
-  <li>Specific Framework in mind to serve as my CMS - https://github.com/piranhacms/piranha.core</li>
+  <li>Specific framework in mind to serve as my CMS - https://github.com/piranhacms/piranha.core</li>
+  <li>Server logging - https://github.com/serilog/serilog</li>
 </ul>
 
 <b>Hosting Provider</b>
@@ -41,6 +43,13 @@
   <li>Be able to create new posts in the Blogs page. Includes the ability to edit and delete if required.</li>
   <li>Will need an Admin only login page to perform step 2.</li>
 </ol>
+
+<h2>Thought process for each page</h2>
+<p><b>Home page</b> will be a simple page with static images and HTML stuff. Nothing too fancy. Maybe implement some overly complicated JavaScript animation here.</p>
+<p><b>Blog page</b> will definitely take the most time with implementing correctly and securely. Have to learn the Piranha .Net Core framework here. Then build my project from scratch.</p>
+<p><b>About page</b> will be identical to the Home page with regards to the frontend stuff. Nothing fancy here.</p>
+<p><b>Contact page</b> will be almost identical as the Home page, except it will provide the option to download my professional work thingy-ma-jiggies.</p>
+<p><b>Track me page</b> will be the second area which will take a lot of time for me. Will have to look for available APIs (if supported) to get my user profile activity event numbers. Otherwise, will have to use some Web Scraping method, process the data into a live graph, then display it to the page. Ultimate goal is to function as a dashboard except it will be accessible to any viewer.</p>
 
 <h2>Branches that will be used:</h2>
 <ul>
